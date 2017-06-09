@@ -8,7 +8,7 @@ uses Binary coded Decimal to seven-Segment chip 74ls47
 
 Just create an object for segmennt controller passing the input pins for BCD 74ls74 decoder
 
-const int a = 2, b= 3, c= 4, d =5;
+```const int a = 2, b= 3, c= 4, d =5;
 SegmentController segmentController(a,b,c,d);
 
 void setup() {
@@ -26,6 +26,7 @@ void setup() {
           }
       }
   }
+  ```
 
 # future upgrades possibilities:
 
