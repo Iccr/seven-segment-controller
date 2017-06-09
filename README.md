@@ -5,6 +5,9 @@ Directly support common anode displays.
 uses Binary coded Decimal to seven-Segment chip 74ls47
 
 # Example: 
+include the library:
+
+`#include "SegmentController.h"`
 
 Just create an object for segmennt controller passing the input pins for BCD 74ls74 decoder
 
